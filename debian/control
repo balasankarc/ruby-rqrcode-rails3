@@ -18,8 +18,14 @@ Package: ruby-rqrcode-rails3
 Architecture: all
 XB-Ruby-Versions: ${ruby:Versions}
 Depends: ruby | ruby-interpreter,
+         ruby-rails,
          ruby-rqrcode (>= 0.4.2),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Render QR codes with Rails 3
- Render QR codes with Rails 3
+Description: render QR codes with Rails 3
+ This gem allows user to render QR codes with Rails 3. It supports rendering
+ either SVG or PNG, JPEG, and GIF formats. QR codes are encoded by the
+ rqrcode gem.
+ .
+ This project was inspired by the first chapter in José Valim's book Crafting
+ Rails Applications

@@ -1,5 +1,5 @@
-ruby-rqrcode-rails3 (0.1.5-1) UNRELEASED; urgency=medium
+ruby-rqrcode-rails3 (0.1.5-1) unstable; urgency=medium
 
-  * Initial release (Closes: #nnnn)
+  * Initial release (Closes: #791359)
 
- -- Balasankar C <balasankarc@autistici.org>  Sat, 04 Jul 2015 01:54:49 +0530
+ -- Balasankar C <balasankarc@autistici.org>  Sun, 14 Jun 2015 23:24:38 +0530
