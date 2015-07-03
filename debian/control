@@ -1,0 +1,25 @@
+Source: ruby-rqrcode-rails3
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 7.0.50~),
+               gem2deb,
+               rake,
+               ruby-rqrcode (>= 0.4.2)
+Standards-Version: 3.9.6
+Vcs-Git: git://anonscm.debian.org/pkg-ruby-extras/ruby-rqrcode-rails3.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-rqrcode-rails3.git
+Homepage: http://github.com/samvincent/rqrcode-rails3
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+
+Package: ruby-rqrcode-rails3
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-rqrcode (>= 0.4.2),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Render QR codes with Rails 3
+ Render QR codes with Rails 3
